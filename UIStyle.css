@@ -1,0 +1,486 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+/*Leave CSS for rihab*/
+body {
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    font-size:22px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+header {
+	
+	background-color: black;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+  	color: inherit;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	
+}
+
+nav li {
+	margin-right: 20px;
+}
+nav a{
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid transparent;
+	padding:5px;
+	transition: all 0.3s ease; /* adds a smooth transition */
+  }
+  
+  nav a:hover {
+	border-color: black; /* changes the border color on hover */
+	border-radius: 5px;
+	background-color: white;
+	
+	color: black;
+  }
+
+/* Add animation on page load */
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+h1:hover {cursor: pointer}
+nav {
+	animation: fadeIn 1s ease;
+}
+
+main {
+	display: flex;
+	flex-wrap:nowrap;
+	padding: 20px;
+}
+
+section {
+	flex-basis: 70%;
+	margin-right: 20px;
+}
+
+
+h2 {
+	margin-bottom: 20px;
+}
+
+article {
+	margin-bottom: 40px;
+}
+
+article h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+article p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+
+.search-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.search-container input[type="text"] {
+	width: 300px;
+	margin-top: 10px;
+	padding: 10px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 3px;
+  }
+  
+  .search-container input[type="submit"] {
+	background-color: #ffffff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+  }
+
+input[type="text"] {
+	padding-right: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	border-radius: 5px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+/*Leave CSS for rihab*/
+button[type="submit"] {
+	background-color: #000000;
+	color: white;
+	padding:10px;
+	margin-top:px;
+	height:50px;
+	margin-left: 10px;
+	width: 120px;
+	border: none;
+	cursor: pointer;
+	float: right;
+	font-weight: bold;
+}
+
+button[type="submit"]:hover {
+	border: none;
+	height:50px;
+	background-color: #2e2e2e;
+}
+fieldset {
+	border: 1px solid #ccc; /* Set a border */
+	border-radius: 5px; /* Add some rounded corners */
+	padding: 10px; /* Add some padding inside the fieldset */
+	margin-bottom: 20px; /* Add some spacing between fieldsets */
+}
+
+	form {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: #f1f1f1;
+		border-radius: 5px;
+	  }
+	  input[type="text"],
+	  textarea {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		margin-bottom: 10px;
+	  }
+	  
+	  textarea {
+		height: 150px;
+	  }
+	  
+	  input[type="submit"] {
+		background-color: #000000;
+		color: white;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		
+		
+	  }
+	  
+	  input[type="submit"]:hover {
+		background-color: #292929;
+	  }
+	  .container {
+		display: grid;
+		max-width: 400px;
+		margin: 100px auto;
+		padding: 20px;
+		background-color: #fff;
+		border-radius: 0px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	}
+
+	  
+	  h2 {
+		text-align: center;
+		margin-bottom: 20px;
+	  }
+	  
+	  input[type="text"],
+	  input[type="password"] {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		margin-bottom: 10px;
+
+	  }
+	  
+	  button[type="submit"] {
+		background-color: #000000;
+		color: white;
+		padding: 10px 20px;
+		height:50px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 100%;
+	  }
+	  
+	  button[type="submit"]:hover {
+		height:50px;
+		background-color: #3e3e3e;
+	  } 
+	  #user-menu{
+		display: none	;
+		position: relative;
+		width: max-content;
+		height: 100px;
+		transition: .4s;
+	  }
+	  #user-menu ul,li{
+		list-style-type: none;
+		color: #000000;
+		font-size: 20px;
+		padding: 20px 24px;
+	  }
+	  #user-menu.active{
+		left:0;
+	  }
+	  #user-menu .toggle-btn{
+		position: absolute;
+		top:30px;
+		right:330px;
+	  }
+	  .toggle-btn span{
+		width: 45px;
+		height: 4px;
+		background-color: #000;
+		display: block;
+		margin-top:4px;
+	  }
+	.login-button {
+	display: inline-block;
+	width: 100%;
+	height:50px;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 90px;
+	
+	}
+	
+	.gmail {
+	background-color: #dd4b39;
+	}
+
+	.microsoft {
+	background-color: #2f2f2f;
+	}
+	.line {
+		width: 3px;
+		height: 500px;
+		background-color: #63636371;
+		margin: 40px 20px;
+		display: inline-block;
+		vertical-align: middle;
+	  }
+	.line-hor {
+		display: inline-block;
+		width: 700px;
+		border: 1px solid #63636371;
+		background-color:#91919180
+	  }
+	.antimsp{
+		text-align: center;
+		margin-top: 20px;
+		padding: 10px;
+		border: 1px solid ;
+		border-radius: 5px;
+		background-color: white;
+		
+	}
+	.image-input {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		width: fit-content;
+	  }
+	  
+	  .image-label {
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+
+		text-align: center;
+		margin-left: 10px;
+	  }
+	  
+	  .square-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 26px;
+		height: 26px;
+		background-color: #ccc;
+	  }
+	  
+	  .plus-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 18px;
+		color: #ffffff;
+	  }
+	  
+	  
+	
+#success-message {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(144, 238, 144, 0.8);
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.5s;
+	background-color:rgba(236, 38, 38, 0.8);
+  }
+  
+  #success-message.show {
+	opacity: 1;
+  }
+  
+  #success-message.hide {
+	opacity: 0;
+  }
+  .custom-radio {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	cursor: pointer;
+  }
+  
+  /* Hide the default radio input */
+  .custom-radio input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+  }
+  
+  /* Radio button design */
+  .custom-radio .checkmark {
+	position: relative;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid #000;
+  }
+  
+  /* Radio button checked state */
+  .custom-radio input:checked ~ .checkmark {
+	background-color: #000;
+  }
+  
+  /* Radio button dot */
+  .custom-radio .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #fff;
+  }
+  
+  /* Radio button dot visible when checked */
+  .custom-radio input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  /* Label styling */
+  .custom-radio label {
+	font-size: 16px;
+	color: #000;
+	cursor: pointer;
+  }
+  
+  /* Hover effect on labels */
+  .custom-radio label:hover {
+	color: #666;
+  }
+  .form-group {
+	margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+  }
+  
+  /* Input field styling */
+  .form-group input[type="text"],
+  .form-group input[type="password"],
+  .form-group input[type="email"],
+  .form-group textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #555;
+  }
+  
+  /* Textarea styling */
+  .form-group textarea {
+	resize: vertical;
+  }
+  
+  /* Error message styling */
+  .form-group .error-message {
+	color: #ff0000;
+	font-size: 14px;
+  }
+  .logo{
+	background-color: #fff;
+	text-decoration: none;
+	border: 1px solid transparent;
+	padding:5px;
+	transition: all 1s ease; /* adds a smooth transition */
+}
+
+	.logo:hover {
+	border-color: black; /* changes the border color on hover */
+	border-radius: 5px;
+	background-color: white;
+	padding-right:30px;
+	color: black;
+	cursor: pointer;
+}
